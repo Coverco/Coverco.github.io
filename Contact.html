@@ -2,15 +2,17 @@
 <html> 
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    Contact
+      <header>
+    VANDAAG GRATIS VERZENDING📦
+  </header>
   </head>
-  <ul>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="Producten.html">Producten</a>
-        <a href="Contact.html">Contact</a>
-    </div>
-</ul>
+ <div class="navbar">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Producten.html">Producten</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
 
 
 <head>
@@ -45,7 +47,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #a0ccda;
   padding: 20px;
 }
 </style>
@@ -53,24 +55,25 @@ input[type=submit]:hover {
 <body>
 
 <h3>Contact Form</h3>
+  <p1>Heb je een vraag over je bestelling of over onze producten? Neem gerust contact met ons op via het formulier hieronder.
+We doen er alles aan om binnen 24 uur te reageren.</p1>
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
+    <label for="fname">Voornaam</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Last Name</label>
+    <label for="lname">Achternaam</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
+    <label for="country">Land</label>
     <select id="country" name="country">
       <option value="Netherlands">Nederland</option>
       <option value="Belgium">België</option>
-      <option value="Germany">Deutschland</option>
     </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="subject">Vraag</label>
+    <textarea id="subject" name="subject" placeholder="Type hier.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>

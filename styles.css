@@ -12,6 +12,7 @@ body {
   /*background-image: url('Website Kleur.jfif')*/
   background-color: #a0ccda;
   margin: 0;
+  
 }
 
 
@@ -54,13 +55,13 @@ body {
   float: left;
   overflow: hidden;
   padding: 10px;
-  background-color: green;
+  background-color: white;
   align-content: center;
 }
 
 .navbar ul {
   width: 100%;
-  background-color: green;
+  background-color: white;
   
 }
 
@@ -68,4 +69,39 @@ body {
   clear: both;
   content: "";
   display: table;
+}
+
+h2 {
+  border: solid 3px white;
+  background-color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 3%;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
